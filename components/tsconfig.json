@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "react": ["../node_modules/react"],
+      "@radix-ui/*": ["../node_modules/@radix-ui/*"],
+      "lucide-react": ["../node_modules/lucide-react"],
+      "@/*": ["../*"]
+    }
+  },
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+} 
